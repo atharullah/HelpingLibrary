@@ -1,0 +1,364 @@
+﻿/*Page level styles*/
+
+/*Remove border spacing from web parts*/
+.ms-webpartPage-root
+{
+	border-spacing:0px;
+}
+
+/*Remove extra white space at bottom*/
+BODY #s4-workspace
+{
+	position: static;
+}
+
+/*Remove Extra white space from left*/
+#contentBox
+{
+	margin-right: 0px;
+	margin-left: auto;
+	min-width: 705px;
+}
+
+/*Align all web parts at center*/
+#s4-bodyContainer
+{
+	max-width: 1024px !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Hide bread crumb*/
+.s4-titletext
+{
+	visibility: hidden;
+}
+
+/*Header Images*/
+.s4-socialdata-notif:before
+{
+	content: url(/EsselImages/HomePage/Right-Logo.jpg);
+}
+
+.ms-webpartzone-cell
+{
+	margin-bottom:5px;
+}
+
+/*Web part images*/
+#img-knowledgesharing
+{
+	background-image: url(/EsselImages/Icons/icon-knowledge-sharing.jpg);
+}
+
+#img-announcement
+{
+	background-image: url(/EsselImages/Icons/icon-announcement.jpg);
+}
+
+#img-directorsmessage
+{
+	background-image: url(/EsselImages/Icons/icon-directors-messege.jpg);
+}
+
+#img-discussionforum
+{
+	background-image: url(/EsselImages/Icons/icon-discussion-forum.jpg);
+}
+
+#img-events
+{
+	background-image: url(/EsselImages/Icons/icon-events.jpg);
+}
+
+#img-newjoinees
+{
+	background-image: url(/EsselImages/Icons/icon-new-joinees.jpg);
+}
+
+#img-birthdays
+{
+	background-image: url(/EsselImages/Icons/icon-birthdays.jpg);
+}
+
+/*Web part*/
+.ep-webpart
+{
+	overflow: hidden; /*border-color: #aaaaaa;     border-style: solid;     border-width: 1px;*/
+	display: block;
+}
+
+/*Web part headers*/
+.ep-hr-title
+{
+	border: none;
+	height: 2px;
+	color: #e8e8e8;
+	background: #e8e8e8;
+	width: 98%;
+}
+
+.ep-webpart-header
+{
+	font-size: 13px;
+	text-align: left;
+	background-color: #0099CC;
+	display: block;
+	height: 28px;
+}
+
+.ep-webpart-img
+{
+	display: inline-block;
+	background-color: blue;
+	width: 32px;
+	height: 28px;
+}
+
+.ep-webpart-title
+{
+	color: #FFFFFF;
+	vertical-align: super;
+	padding-left: 5px;
+}
+
+/*Webpart body*/
+.ep-webpart-body
+{
+	/*display: block;     padding-top: 10px;     padding-left: 10px;     padding-right: 10px;*/
+}
+
+.ep-webpart-record
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	display: block;
+}
+
+.ep-a-readmore
+{
+	
+}
+
+.ep-readmorearrow
+{
+	background-image: url(/EsselImages/Icons/read-more-1.png);
+	display: inline-block;
+	width: 6px;
+	height: 10px;
+}
+.ep-readmoreround
+{
+	background-image: url(/EsselImages/Icons/read-more-2.png);
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+}
+
+.ep-hr-separator
+{
+	border: none;
+	height: 1px;
+	color: #e8e8e8;
+	background: #e8e8e8;
+	width: 95%;
+}
+
+/*webpart footers*/
+.ep-webpart-footer
+{
+	margin-bottom: 5px;
+	padding-left: 5px;
+	display: block;
+	margin-top: 5px;
+}
+
+.td-leftborder
+{
+	border-left: thin solid #e8e8e8;
+}
+
+.td-rightborder
+{
+	border-right: thin solid #e8e8e8;
+}
+
+.tbl-borderbottom
+{
+	border-bottom: thin solid #e8e8e8;
+}
+
+.tbl-allborder
+{
+	border-top: thin solid #e8e8e8;
+	border-bottom: thin solid #e8e8e8;
+	border-left: thin solid #e8e8e8;
+	border-right: thin solid #e8e8e8;
+}
+
+.ep-archive-record
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+/*Announcements styles*/
+.ep-announcement-title
+{
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ep-announcement-shortdescription
+{
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+/*Knowledge Sharing styles*/
+.ep-knowledgesharing-title
+{
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ep-knowledgesharing-shortdescription
+{
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+/*Directors Message styles*/
+.ep-directorsmessage-title
+{
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ep-directorsmessage-shortdescription
+{
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+/*New Joinees styles*/
+.ep-newjoinees-title
+{
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ep-newjoinees-shortdescription
+{
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+/*Birthday styles*/
+.ep-birthday-title
+{
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.ep-birthday-shortdescription
+{
+	display: block;
+	font-size: 13px;
+	padding: 5px;
+	text-align: left;
+}
+
+/*Paging Style*/
+.ep-paging-links
+{
+	font-size:13px !important;
+	font-weight: bold;
+	color: #0099CC;
+}
+
+/*Directors Message styles*/
+.ep-colored-quotes
+{
+	font-weight: bold;
+	color: #0099CC;
+}
+
+.ep-directors-photo
+{
+	padding: 2px;
+}
+
+.ep-directors-details
+{
+	padding: 5px;
+}
+
+/*Birthdays Webpart styles*/
+.ep-bday-content-div
+{
+	height: 100px;
+}
+
+.ui-tabs .ui-tabs-nav li a
+{
+	font-size: 7pt !important;
+}
+
+.ui-tabs .ui-tabs-nav a
+{
+	background-color: #0099CC;
+}
+
+ul.ep-bday-ul
+{
+	list-style-type: square;
+}
+
+ul.ep-bday-ul li:before
+{
+	color: #0099CC;
+}
+
+/*New Joinees Styles*/
+.ep-item-icon
+{
+	width: 52px;
+	height: 52px;
+	display: block;
+	padding: 5px;
+}
+
+/* Home Page Images Style for size*/
+.ThumbnailStyle 
+{
+    width:50px;
+    height:50px;
+}
+.ImageStyle 
+{
+    width:200px;
+    height:250px;
+}
